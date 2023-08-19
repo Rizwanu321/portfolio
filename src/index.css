@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .resumeLi {
+    @apply w-full h-20 bg-primaryColor text-xl text-white flex justify-center cursor-pointer rounded-xl
+    border-8 border-smallTextColor hover:bg-headingColor  duration-300 items-center;
+         }
+
+}
